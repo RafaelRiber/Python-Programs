@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import sys
+from sys import exit
 from math import sqrt
 
 print " _____             _   _            _____     _                      ___   "
@@ -15,28 +15,28 @@ a = float(input("Value of 'A': "))
 if a != 0:
 	print "A = %s" % (a)
 else:
-	sys.exit("Invalid value. Please enter only numbers other than zero.")
+	exit("Invalid value. Please enter only numbers other than zero.")
 
 b = float(input("Value of 'B': "))
 
 if b != 0:
 	print "B = %s" % (b)
 else:
-	sys.exit("Invalid value. Please enter only numbers other than zero.")
+	exit("Invalid value. Please enter only numbers other than zero.")
 
 c = float(input("Value of 'C': "))
 
 if c != 0:
 	print "C = %s" % (c)
 else:
-	sys.exit("Invalid value. Please enter only numbers other than zero.")
+	exit("Invalid value. Please enter only numbers other than zero.")
 
 discriminant = (b * b) - 4 * (a * c)
 
 if discriminant >= 0:
 	print "\nThe discriminant is equal to: %s.\n" % (discriminant)
 else:
-	sys.exit("The equation is unresolvable. The discriminant is negative.")
+	exit("The equation is unresolvable. The discriminant is negative.")
 
 x1 = (-b - sqrt(discriminant) ) / (2 * a)
 x2 = (-b + sqrt(discriminant) ) / (2 * a)
