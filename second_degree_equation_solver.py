@@ -8,7 +8,7 @@ print "|   __| . | | | .'|  _| | . |   |  |__   | . | | | | -_|  _|  | | |_ _| |
 print "|_____|_  |___|__,|_| |_|___|_|_|  |_____|___|_|\_/|___|_|     \_/|_|_____|"
 print "        |_|                                                                "
 
-print "\nWelcome in the Equation Resolver. Please give the values for 'a', 'b' and 'c' as follows: ax^2+bx+c = 0.\n"
+print "\nWelcome in the Equation Resolver by V3sth4cks153. Please give the values for 'a', 'b' and 'c' as follows: ax^2+bx+c = 0.\n"
 
 a = float(input("Value of 'A': "))
 
@@ -45,4 +45,4 @@ x3 = (-b) / (2 * a)
 if discriminant == 0:
     print "Sole solution of the equation: %s" % (x3)
 else:
-	print "Solutions: (%s; %s) \n\nThank you for using the Equation Solver !" % (x1, x2)
+	print "Solutions: (%s; %s) \n\nThank you for using the Equation Solver by V3sth4cks153 !" % (x1, x2)
