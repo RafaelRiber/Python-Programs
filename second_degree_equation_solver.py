@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import sys
-import math
+from math import sqrt
 
 print " _____             _   _            _____     _                      ___   "
 print "|   __|___ _ _ ___| |_|_|___ ___   |   __|___| |_ _ ___ ___    _ _  |_  |  "
@@ -38,8 +38,8 @@ if discriminant >= 0:
 else:
 	sys.exit("The equation is unresolvable. The discriminant is negative.")
 
-x1 = (-b - math.sqrt(discriminant) ) / (2 * a)
-x2 = (-b + math.sqrt(discriminant) ) / (2 * a)
+x1 = (-b - sqrt(discriminant) ) / (2 * a)
+x2 = (-b + sqrt(discriminant) ) / (2 * a)
 x3 = (-b) / (2 * a)
 
 if discriminant == 0:
