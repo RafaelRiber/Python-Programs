@@ -36,7 +36,7 @@ discriminant = (b * b) - 4 * (a * c)
 if discriminant >= 0:
 	print "\nThe discriminant is equal to: %s.\n" % (discriminant)
 else:
-	exit("The equation is unresolvable. The discriminant is negative.")
+	exit("The equation is unsolvable: The discriminant is negative.")
 
 x1 = (-b - sqrt(discriminant) ) / (2 * a)
 x2 = (-b + sqrt(discriminant) ) / (2 * a)
