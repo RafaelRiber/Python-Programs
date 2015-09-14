@@ -8,7 +8,7 @@ print "|   __| . | | | .'|  _| | . |   |  |__   | . | | | | -_|  _|  | | |_ _| |
 print "|_____|_  |___|__,|_| |_|___|_|_|  |_____|___|_|\_/|___|_|     \_/|_|_____|"
 print "        |_|                                                                "
 
-print "\nWelcome in the Equation Resolver by V3sth4cks153. Please give the values for 'a', 'b' and 'c' as follows: ax^2+bx+c = 0.\n"
+print "\nWelcome in the Equation Solver by V3sth4cks153. Please give the values for 'a', 'b' and 'c' as follows: ax^2+bx+c = 0.\n"
 
 a = float(input("Value of 'A': "))
 
