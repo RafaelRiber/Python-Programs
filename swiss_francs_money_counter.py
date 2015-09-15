@@ -3,9 +3,9 @@ from sys import exit
 
 def check(x):
     if type(x) == int and x >= 0:
-        print "%s is a valid number. Go on." % (x)
+        pass
     elif type(x) == float or type(x) == str:
-        exit("Invalid value. Please enter a valid number.")
+        exit("Invalid value. Please enter a valid number. (no decimals and only numeral)")
     else:
         exit("Invalid value. Please enter a valid number.")
 
