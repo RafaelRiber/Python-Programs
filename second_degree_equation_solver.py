@@ -12,7 +12,7 @@ print "\nWelcome in the Equation Solver 2.0 by V3sth4cks153. Please give the val
 
 def check(x):
     if x != 0:
-	    print "%s is a valid value. Please go on." % (x)
+	    pass
     else:
 	    exit("Invalid value. Please enter only numbers other than zero.")
 
@@ -34,6 +34,6 @@ else:
 	exit("The equation has no real roots: The discriminant is negative.")
 
 if dis == 0:
-    print "Sole root of the equation: %s" % (x3)
+    print "Sole root of the equation: (%s)" % (x3)
 else:
 	print "Roots: (%s; %s) \n\nThank you for using the Equation Solver by V3sth4cks153 !" % (x1, x2)
