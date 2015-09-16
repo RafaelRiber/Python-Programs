@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
+#Import libraries
 from sys import exit
-
+#Define check function
 def check(x):
     if type(x) == int and x >= 0:
         pass
@@ -8,7 +9,7 @@ def check(x):
         exit("Invalid value. Please enter a valid number. (no decimals and only numeral)")
     else:
         exit("Invalid value. Please enter a valid number.")
-
+#Input and check
 ten_francs = input("1/13 - How many ten francs bills do you have ? ")
 check(ten_francs)
 
@@ -48,6 +49,7 @@ check(ten_cents)
 five_cents = input("13/13 - How many five cent coins do you have ? ")
 check(five_cents)
 
+#Count total
 total = (ten_francs * 10) + (twenty_francs * 20) + (five_francs * 50) + (hundred_francs * 100) + (two_hundred_francs * 200) + (thousand_francs * 1000) + (five_francs * 5) + (two_francs * 2) + (one_franc * 1) + (fifty_cents * 0.5) + (twenty_cents * 0.2) + (ten_cents * 0.1) + (five_cents * 0.05)
 
 print "You have exactly %s francs." % (total)

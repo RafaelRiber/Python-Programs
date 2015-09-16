@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
+#Import de libraries
 from math import sqrt
 from sys import exit
-
+#Bienvenue
 know = str(raw_input("Bienvenue dans le solveur du Théorème de Pythagore. \nQue connaissez-vous dans le triangle ? \n\nA: 1 cathète + hypoténuse\nB: Deux cathètes\n\nRéponse: "))
-
+#Choix puis calculs
 if know == "A" or know == "a":
     a = float(input("\nLongueur de l'hypoténuse: "))
     b = float(input("Longueur du cathète: "))
