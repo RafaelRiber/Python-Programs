@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 from os import system
 from os import name
+
+def cls():
+	system(['clear','cls'][name == 'nt'])
+
+cls()
 #http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Volumetry%20v1
 print "____   ____    .__                        __                         ____ "
 print "\   \ /   /___ |  |  __ __  _____   _____/  |________ ___.__. ___  _/_   |"
@@ -8,8 +13,6 @@ print " \   Y   /  _ \|  | |  |  \/     \_/ __ \   __\_  __ <   |  | \  \/ /|   
 print "  \     (  <_> )  |_|  |  /  Y Y  \  ___/|  |  |  | \/\___  |  \   / |   |"
 print "   \___/ \____/|____/____/|__|_|  /\___  >__|  |__|   / ____|   \_/  |___|"
 print "                                \/     \/             \/                  "
-def cls():
-	system(['clear','cls'][name == 'nt'])
 
 choice = str(raw_input("\n\nWelcome in the volumetry calculator ! What would you like to calculate ?\n\nA: Molarity of substance A\nB: Volume of substance A\nC: Molarity of substance B\nD: Volume of substance B\n\nYour answer: ")).lower()
 
