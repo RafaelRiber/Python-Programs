@@ -9,6 +9,7 @@ def check(x):
         exit("Invalid value. Please enter a valid number. (no decimals and only numeral)")
     else:
         exit("Invalid value. Please enter a valid number.")
+
 #Input and check
 ten_francs = input("1/13 - How many ten francs bills do you have ? ")
 check(ten_francs)
@@ -28,25 +29,25 @@ check(two_hundred_francs)
 thousand_francs = input("6/13 - How many thousand francs bills do you have ? ")
 check(thousand_francs)
 
-five_francs = input("7/13 - How many five francs coins do you have ? ")
+five_francs = input("7/13 - How many five francs coin(s) do you have ? ")
 check (five_francs)
 
-two_francs = input("8/13 - How many two francs coins do you have ? ")
+two_francs = input("8/13 - How many two francs coin(s) do you have ? ")
 check(two_francs)
 
-one_franc = input("9/13 - How many one franc coins do you have ? ")
+one_franc = input("9/13 - How many one franc coin(s) do you have ? ")
 check(one_franc)
 
-fifty_cents = input("10/13 - How many fifty cents coins do you have ? ")
+fifty_cents = input("10/13 - How many fifty cents coin(s) do you have ? ")
 check(fifty_cents)
 
-twenty_cents = input("11/13 - How many twenty cents coins do you have ? ")
+twenty_cents = input("11/13 - How many twenty cents coin(s) do you have ? ")
 check(twenty_cents)
 
-ten_cents = input("12/13 - How many ten cents coins do you have ? ")
+ten_cents = input("12/13 - How many ten cents coin(s) do you have ? ")
 check(ten_cents)
 
-five_cents = input("13/13 - How many five cent coins do you have ? ")
+five_cents = input("13/13 - How many five cent coin(s) do you have ? ")
 check(five_cents)
 
 #Count total
