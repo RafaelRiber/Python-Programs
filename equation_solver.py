@@ -9,7 +9,7 @@ print " / _// _ `/ // / _ `/ __/ / _ \/ _ \  _\ \/ _ \/ / |/ / -_) __/  | |/ / _
 print "/___/\_, /\_,_/\_,_/\__/_/\___/_//_/ /___/\___/_/|___/\__/_/     |___/____(_)_/  "
 print "      /_/                                                                        "
 #Welcome phrase
-print "\nWelcome in the 'Equation Solver' 2.1 by V3sth4cks153.\nPlease give the values for 'a', 'b' and 'c' as follows: f(x) = Ax^2+Bx+C.\n"
+print "\nWelcome in the 'Equation Solver' 2.1 by Rafael Riber .\nPlease give the values for 'a', 'b' and 'c' as follows: f(x) = Ax^2+Bx+C.\n"
 #Define check function
 def check(x):
     if x != 0:
@@ -40,4 +40,4 @@ else:
 if dis == 0:
     print "Sole root of the equation: (%s). Summit: (%s; %s)\n" % (x3, sx, sy)
 else:
-	print "Roots: (%s; %s)\nSummit: (%s; %s) \n\nThank you for using the Equation Solver by V3sth4cks153 !" % (x1, x2, sx, sy)
+	print "Roots: (%s; %s)\nSummit: (%s; %s) \n\nThank you for using the Equation Solver by Rafael Riber  !" % (x1, x2, sx, sy)
